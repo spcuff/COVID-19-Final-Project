@@ -39,7 +39,7 @@ The downside of this approach is that it is certainly time intensive. Each step 
 ### ArcGIS Animation to MP4 HD1080 Video
 An alternative method for creating this visualization emerged within the ArcGIS Pro software. The software contains an animation function where you can import a time series map, edit as a video, and export as a high resolution MP4 file. The process is pretty intuitive, with few technical difficulties arising despite my inexperience in video editing. The video, with overlaid content and charts, can be view on YouTube at the link below.
 
-[![Watch the video](https://img.youtube.com/vi/sOm6ekSrJF4/maxresdefault.JPG)](https://youtu.be/sOm6ekSrJF4)
+[![Watch the video](thumbnail.JPG)](https://youtu.be/sOm6ekSrJF4)
 
 
 
