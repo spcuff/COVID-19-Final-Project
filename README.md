@@ -38,7 +38,7 @@ The downside of this approach is that it is certainly time intensive. Each step 
 
 ### ArcGIS Animation to MP4 HD1080 Video
 
-https://youtu.be/sOm6ekSrJF4
+
 [![Watch the video](https://img.youtu.com/vi/sOm6ekSrJF4/maxresdefault.jpg)](https://youtu.be/sOm6ekSrJF4)
 
 ## Data Processing
