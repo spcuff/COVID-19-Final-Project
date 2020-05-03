@@ -5,6 +5,8 @@ Advanced GIS (90-753-A4) Spring 2020
 
 Authors: Sean Cuff and Christopher Ibeling
 
+[Project and Data Repository](https://drive.google.com/open?id=1_KvSX6kAjWgqh6ilRnOuHoOHrsHRfNT9)
+
 ## Project Overview
 When reading about or watching video content about the current pandemic, the maps that most Americans see often provide totals to date of confirmed cases or the number of deaths. What is not as frequently captured in these maps, however, is the factor of time in the outbreak. Certainly one of the most alarming characteristics of the Coronavirus outbreak is the speed at which it has spread, and a sense of that speed can be lost when viewing a static map on a consistent basis. After all, it is in the public interest to convey the most up-to-date information on the crisis as possible, in order to avoid confusion, misinterpretation, and misinformation.
 
