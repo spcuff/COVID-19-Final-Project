@@ -26,8 +26,26 @@ The experience of the Covid-19 outbreak through March and April was one of expon
 We developed the time-series maps for this project by using two different approaches: ArcGIS Layout to GIF and ArcGIS Animation. We ultimately turned to these methods as developing a time-lapse map with such a large number of polygons presented a number of logistical challenges. Particularly throughout April when most counties across the country were reporting cases of Covid-19, the ArcGIS Pro and Online software struggled at smoothly rendering each day’s map. The two approaches, then, allowed us to draw on the maps developed in ArcGIS Pro and share a time-series product that loops and renders smoothly.
 
 ### ArcGIS Layout to GIF
-This approach emerged by examining the html code of a couple of health department websites who were sharing time-lapse Covid maps of their own. Since time-series maps are essentially stop-motion style videos, we decided to take advantage of some of ArcGIS Pro’s layout features to develop our Covid time-lapse GIF. 
+This approach emerged by examining the html code of a couple of health department websites who were sharing time-lapse Covid maps of their own. Since time-series maps are essentially stop-motion style videos, we decided to take advantage of some of ArcGIS Pro’s layout features to develop our Covid time-lapse GIF. Using a layout of the map, we included a line chart of the total number of cases to provide a sense of the intensity of the spread along with the visual of its geographical spread. The layout format allowed us to step through each day of the slider and export the layout at a jpeg which ultimately formed the Covid GIF.
 
 ![](covid_timelapse.gif)
 
-Using a layout of the map, we included a line chart of the total number of cases to provide a sense of the intensity of the spread along with the visual of its geographical spread. The layout format allowed us to step through each day of the slider and export the layout at a jpeg which ultimately formed the Covid GIF.
+The most attractive feature of the GIF approach for our project was the ability to add any number of additional information or features to the frame without concern for the video’s smoothness or rendering speed. ArcGIS Pro’s default time slider player particularly struggled at displaying the time-lapse map along with any type of chart. The GIF approach allowed us to develop a very time series with smooth transitions and good additional information.
+
+The downside of this approach is that it is certainly time intensive. Each step of the time-series needs to be an individual image. Any mistake on the tayout then is unfortunately not easily corrected.
+
+### ArcGIS Animation to MP4 HD1080 Video
+
+
+## Data Processing
+Getting to the point of even having a functional feature layer from the raw Covid-19 case data presented a number of interesting obstacles to overcome. We drew on the New York Times’ publically-available covid dataset for the number of daily reported cases by county. Unfortunately for the purposes of joining that data to a shapefile, the Times’ dataset grouped all counties together in New York City and Kansas City without a corresponding FIPS code. It additionally dropped the leading 0 for all counties with a 4-digit FIPS code. 
+To resolve the issue, we very fortunately found a shared [python script](https://drive.google.com/open?id=1-7Q3j0hzHa-4mDcb1Wxyl6-wzF7et7lI) that inserted the leading zero for any 4-digit FIPS code and assigned entries for New York City and Kansas City with a made up FIPS code. We then took a generalized U.S. counties layer with dissolved counties within Kansas City and New York City and joined it with the fixed New York Times dataset. We have shared the joined counties shapefile both on ArcGIS online as well as through a [shared google drive folder](https://drive.google.com/open?id=1_KvSX6kAjWgqh6ilRnOuHoOHrsHRfNT9).
+
+## Lessons Learned and Project Takeaways
+### Exponential Growth
+One of the most striking features of the Covid-19 outbreak that the time-lapse maps captured was the impact of exponential growth within a pandemic. A static map can communicate the magnitude of the spread at any given moment, but it can be difficult to project what that number could be in the future. Even though we have seen the daily case totals countless times, it was alarming nonetheless to see the large jumps in total confirmed cases with each step of the time-lapse map and how quickly that translated to geographical spread.
+
+### Design Tradeoffs
+
+
+
