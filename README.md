@@ -1,6 +1,8 @@
 # COVID-19 Time Lapse Visualization Project
 Heinz College of Information Systems and Public Policy
+
 Advanced GIS (90-753-A4) Spring 2020
+
 Authors: Sean Cuff and Christopher Ibeling
 
 ## Project Overview
