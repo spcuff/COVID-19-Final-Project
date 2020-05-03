@@ -37,9 +37,11 @@ The most attractive feature of the GIF approach for our project was the ability 
 The downside of this approach is that it is certainly time intensive. Each step of the time-series needs to be an individual image. Any mistake on the tayout then is unfortunately not easily corrected.
 
 ### ArcGIS Animation to MP4 HD1080 Video
+An alternative method for creating this visualization emerged within the ArcGIS Pro software. The software contains an animation function where you can import a time series map, edit as a video, and export as a high resolution MP4 file. The process is pretty intuitive, with few technical difficulties arising despite my inexperience in video editing. The video, with overlaid content and charts, can be view on YouTube at the link below.
 
+[![Watch the video](thumbnail.JPG)](https://youtu.be/sOm6ekSrJF4)
+![thumbnail](https://spcuff.github.io/COVID-19-Time-Series-Map/thumbnail.JPG)
 
-[![Watch the video](thumbnail.jpg)](https://youtu.be/sOm6ekSrJF4)
 
 ## Data Processing
 Getting to the point of even having a functional feature layer from the raw COVID-19 case data presented a number of interesting obstacles to overcome. We drew on the New York Times’ publically-available covid dataset for the number of daily reported cases by county. Unfortunately for the purposes of joining that data to a shapefile, the Times’ dataset grouped all counties together in New York City and Kansas City without a corresponding FIPS code. It additionally dropped the leading 0 for all counties with a 4-digit FIPS code. 
