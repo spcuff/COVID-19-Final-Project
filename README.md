@@ -28,6 +28,6 @@ We developed the time-series maps for this project by using two different approa
 ### ArcGIS Layout to GIF
 This approach emerged by examining the html code of a couple of health department websites who were sharing time-lapse Covid maps of their own. Since time-series maps are essentially stop-motion style videos, we decided to take advantage of some of ArcGIS Pro’s layout features to develop our Covid time-lapse GIF. 
 
-![ ] (covid_timelapse.gic)
+![ ] (covid_timelapse.gif)
 
 Using a layout of the map, we included a line chart of the total number of cases to provide a sense of the intensity of the spread along with the visual of its geographical spread. The layout format allowed us to step through each day of the slider and export the layout at a jpeg which ultimately formed the Covid GIF.
