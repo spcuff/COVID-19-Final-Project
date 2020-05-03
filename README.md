@@ -39,7 +39,7 @@ The downside of this approach is that it is certainly time intensive. Each step 
 ### ArcGIS Animation to MP4 HD1080 Video
 
 
-[![Watch the video](thumbnail.jpg](https://youtu.be/sOm6ekSrJF4)
+[![Watch the video](thumbnail.jpg)](https://youtu.be/sOm6ekSrJF4)
 
 ## Data Processing
 Getting to the point of even having a functional feature layer from the raw COVID-19 case data presented a number of interesting obstacles to overcome. We drew on the New York Times’ publically-available covid dataset for the number of daily reported cases by county. Unfortunately for the purposes of joining that data to a shapefile, the Times’ dataset grouped all counties together in New York City and Kansas City without a corresponding FIPS code. It additionally dropped the leading 0 for all counties with a 4-digit FIPS code. 
