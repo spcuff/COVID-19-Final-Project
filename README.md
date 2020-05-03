@@ -41,7 +41,7 @@ An alternative method for creating this visualization emerged within the ArcGIS 
 
 [![Watch the video](thumbnail.JPG)](https://youtu.be/sOm6ekSrJF4)
 
-
+The strength of this approach is the versitility of the editing tool and the ability to overlay interstitial content on the map. This provided the opportunity to tell more of the story than a static map or stand alone GIF, both of which require some additional context to inform the audience. The downside to this method is that it does require video editing experience to make a truly polished product, and the time it takes the software to package and export the file. There are likely far greater capabilities with the animation tool, like cutting to the dynamic line graph shown in the GIF, that are simply beyond my skills. However, it was an interesting use of software functionality that often go unused in the academic setting.
 
 ## Data Processing
 Getting to the point of even having a functional feature layer from the raw COVID-19 case data presented a number of interesting obstacles to overcome. We drew on the New York Times’ publically-available covid dataset for the number of daily reported cases by county. Unfortunately for the purposes of joining that data to a shapefile, the Times’ dataset grouped all counties together in New York City and Kansas City without a corresponding FIPS code. It additionally dropped the leading 0 for all counties with a 4-digit FIPS code. 
@@ -52,6 +52,6 @@ To resolve the issue, we very fortunately found a shared [python script](https:/
 One of the most striking features of the COVID-19 outbreak that the time-lapse maps captured was the impact of exponential growth within a pandemic. A static map can communicate the magnitude of the spread at any given moment, but it can be difficult to project what that number could be in the future. Even though we have seen the daily case totals countless times, it was alarming nonetheless to see the large jumps in total confirmed cases with each step of the time-lapse map and how quickly that translated to geographical spread.
 
 ### Design Tradeoffs
-
+One of the challenges we faced was choosing, from a design and product perspective, what extent to display the map. The COVID-19 crisis is affecting every state, county, and community in the country. Like many maps, we chose to make the unfortunate tradeoff in only including the contiguous United States in the extent. This allowed for greater granualirity in the counties within the extent. This map does not visualize the intensity of cases and impacts across counties. However, it should be stated that the economic and health impacts of this crisis on Hawaii and Alaska have been devestating, particularly in industries related to tourism. This design decision was difficult to make, but ultimately was the best way to fulfill the goals of our visualization.
 
 
