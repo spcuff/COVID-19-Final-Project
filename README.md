@@ -3,7 +3,7 @@ Heinz College of Information Systems and Public Policy
 
 Advanced GIS (90-753-A4) Spring 2020
 
-Authors: Sean Cuff (MSPPM) and Christopher Ibeling (MSPPM)
+Authors: Sean Cuff (MSPPM 2020) and Christopher Ibeling (MSPPM 2020)
 
 [Project and Data Repository](https://drive.google.com/open?id=1_KvSX6kAjWgqh6ilRnOuHoOHrsHRfNT9)
 
